@@ -1,0 +1,22 @@
+[
+{
+        "Periodo":"Dal 1/10 al 31/3",
+        "ospiti5": "50"
+    },
+    {
+        "Periodo":"Dal 1/4 al 30/6",
+        "ospiti5": "60"
+    },
+    {
+        "Periodo":"Dal 1/7 al 28/7",
+        "ospiti5": "80"
+    },
+    {
+        "Periodo":"Dal 29/7 al 03/9",
+        "ospiti5": "100"
+    },
+    {
+        "Periodo":"Dal 4/9 al 1/10",
+        "ospiti5": "80"
+    }
+]

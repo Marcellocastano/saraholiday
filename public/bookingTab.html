@@ -1,0 +1,53 @@
+    <!-- Page Content elem-ready-maps=""-->
+    <div class="container" ng-show="navigationtab.isSet(9)" >
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Booking
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href ng-click="navigationtab.setTab(1)">Home</a>
+                    </li>
+                    <li class="active">Booking</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <!-- Sidebar Column -->
+            <div class="col-md-3">
+                <div class="list-group">
+                    <a href ng-click="bookingtab.setTab(1)" class="list-group-item">Sara Relax Home</a>
+                    <a href ng-click="bookingtab.setTab(2)" class="list-group-item">Sara Relax Chalet</a>
+                    <a href ng-click="bookingtab.setTab(3)" class="list-group-item">Sara Home</a>
+                </div>
+            </div>
+            <!-- Content Column -->
+            <div class="col-md-9">
+
+            <div class="col-md-9" ng-show="bookingtab.isSet(1)">
+                <h2>
+                    <a href ng-click="navigationtab.setTab(2)"> Sara Relax Home</a>
+                </h2>
+            </div>
+
+            <div class="col-md-9" ng-show="bookingtab.isSet(2)">
+                <h2><a href ng-click="navigationtab.setTab(3)"> Sara Relax Chalet</a></h2>
+             </div>
+
+                <div class="col-md-9" ng-show="bookingtab.isSet(3)">
+                <h2><a href ng-click="navigationtab.setTab(4)"> Sara Home</a></h2>
+             </div>
+
+           
+                <br>
+
+           </div> 
+        </div>
+        <hr>
+
+    </div>
+   

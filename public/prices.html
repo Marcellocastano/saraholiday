@@ -1,0 +1,188 @@
+    <!-- Page Content -->
+    <div class="container" ng-show="navigationtab.isSet(5)" >
+        <a  name="tornasu"></a>
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Prices
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href ng-click="navigationtab.setTab(1)">Home</a>
+                    </li>
+                    <li class="active">Prices</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row" >
+            <!-- Sidebar Column -->
+            <div class="col-md-3">
+                <div class="list-group">
+                    <a href="#LastMinute" class="list-group-item">Last minutes</a>
+                    <a href="#SaraRelaxHome" class="list-group-item">Sara Relax Home</a>
+                    <a href="#SaraRelaxChalet" class="list-group-item">Sara Relax Chalet</a>
+                    <a href="#SaraHome" class="list-group-item">Sara Home</a>
+                </div>
+            </div>
+            <!-- Content Column -->
+            
+            <div class="col-md-9">
+                <h1>Tariffe settimanali</h1>
+                <a  name="LastMinute"></a>
+                <h2 class="fakehref">Last minute</h2>
+                <p>Al momento nessuna offerta disponibile</p>
+                <br>
+                <br>
+
+                <a  name="SaraRelaxHome"></a>
+                <h2><a href ng-click="navigationtab.setTab(2)"> Sara Relax Home</a></h2>
+                
+                <table class ="table-hover table" ng-controller ="TariffeController as tariffe">
+                    <thead>
+                        <tr>
+                            <th>
+                               Periodo
+                            </th>
+                            <th>
+                                Fino a 4 ospiti
+                            </th>
+                            <th>
+                                5 ospiti
+                            </th>
+                            <th>
+                                6 ospiti
+                            </th>
+                            <th>
+                                7 ospiti
+                            </th>
+                            <th>                
+                               8 ospiti
+                            </th>
+                            <th>
+                                9 ospiti
+                            </th>                                                       
+                            <th>
+                               10 ospiti
+                            </th>
+                           </tr>
+                        </thead>
+    
+                       <tr ng-repeat="periodo in  tariffe.periodi">
+
+                         <td> <p>{{ periodo.Periodo}} </p></td>
+                         <td><p>{{ periodo.ospiti4 *7}}</p></td>
+                          <td><p>{{ periodo.ospiti5 *7}}</p></td>
+                          <td><p>{{ periodo.ospiti6 *7}}</p></td>
+                          <td><p>{{ periodo.ospiti7 *7}}</p></td>
+                          <td><p>{{ periodo.ospiti8 *7}}</p></td>
+                          <td><p>{{ periodo.ospiti9 *7}}</p></td>
+                          <td><p>{{ periodo.ospiti10 *7}}</p></td>
+                      </tr>
+        
+                    </table>
+                <p>Imposta di soggiorno 1&#8364; a notte per persona (escluso minori di anni 10)</p>
+                <p>Spese di pulizia finali pari a 80€</p>
+                <a href="#tornasu" class="rightAlignment">torna su</a>
+
+            <a  name="SaraRelaxChalet"></a>
+           <h2><a href ng-click="navigationtab.setTab(3)"> Sara Relax Chalet</a></h2>
+                <table class ="table-hover table" ng-controller ="TariffeChaletController as tariffe">
+                    
+                    <!-- Inverse table
+                    <thead>
+                    <tr>
+                        <th>
+                        Periodo
+                        </th>
+                        <th ng-repeat="periodo in  tariffe.periodi">
+                        {{ periodo.Periodo}}
+                        </th>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>Fino a 5 ospiti 
+                    <td ng-repeat="periodo in  tariffe.periodi">
+                    <p>{{ periodo.ospiti5 *7}}</p>
+                    </td>
+                    </tr>
+                    -->
+
+                    <!---->
+                    <thead>
+                        <tr>
+                            <th>
+                               Periodo
+                            </th>
+                            <th>
+                                Fino a 5 ospiti
+                            </th>
+                           </tr>
+                        </thead>
+    
+                       <tr ng-repeat="periodo in  tariffe.periodi">
+
+                         <td> <p>{{ periodo.Periodo}} </p></td>
+                         <td><p>{{ periodo.ospiti5 *7}}</p></td>
+                      </tr>
+                    
+                    </table>
+                <p>Imposta di soggiorno 1&#8364; a notte per persona (escluso minori di anni 10)</p>
+                <p>Spese di pulizia finali pari a 80€</p>
+               <a href="#tornasu" class="rightAlignment">torna su</a>
+
+           <a  name="SaraHome"></a>
+                <h2><a href ng-click="navigationtab.setTab(2)"> Sara Home</a></h2>
+                
+                <table class ="table-hover table" ng-controller ="TariffeHomeController as tariffe">
+                    <thead>
+                        <tr>
+                            <th>
+                               Periodo
+                            </th>
+                            <th>
+                                Fino a 4 ospiti
+                            </th>
+                            <th>
+                                5 ospiti
+                            </th>
+                            <th>
+                                6 ospiti
+                            </th>
+                            <th>
+                                7 ospiti
+                            </th>
+                            <th>                
+                               8 ospiti
+                            </th>
+                            <th>
+                                9 ospiti
+                            </th>    
+                           </tr>
+                        </thead>
+    
+                       <tr ng-repeat="periodo in  tariffe.periodi">
+
+                         <td> <p>{{ periodo.Periodo}} </p></td>
+                         <td><p>{{ periodo.ospiti4 *7}}</p></td>
+                          <td><p>{{ periodo.ospiti5 *7}}</p></td>
+                          <td><p>{{ periodo.ospiti6 *7}}</p></td>
+                          <td><p>{{ periodo.ospiti7 *7}}</p></td>
+                          <td><p>{{ periodo.ospiti8 *7}}</p></td>
+                          <td><p>{{ periodo.ospiti9 *7}}</p></td>
+                      </tr>
+        
+                    </table>
+                <p>Imposta di soggiorno 1&#8364; a notte per persona (escluso minori di anni 10)</p>
+                <p>Spese di pulizia finali pari a 80€</p>
+                <a href="#tornasu" class="rightAlignment">torna su</a>
+
+        </div>
+        </div>
+            <!-- /.row -->
+
+        <hr>
+
+    </div>
+   

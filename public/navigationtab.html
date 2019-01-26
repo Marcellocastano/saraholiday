@@ -1,0 +1,61 @@
+<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <ul>
+                <li ng-class="{ active:navigationtab.isSet(1)}">
+                    <a class="navbar-brand" href ng-click="navigationtab.setTab(1)">Sara's</a>
+                </li>
+                </ul>
+                
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Accomodations <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li ng-class="{ active:navigationtab.isSet(2)}">
+                                <a href ng-click="navigationtab.setTab(2)" >Sara Relax Home</a>
+                            </li>
+                            <li ng-class="{ active:navigationtab.isSet(3)}">
+                                <a href ng-click="navigationtab.setTab(3)">Sara Relax Chalet</a>
+                            </li>
+                            <li ng-class="{ active:navigationtab.isSet(4)}">
+                                <a href ng-click="navigationtab.setTab(4)">Sara Home</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li ng-class="{ active:navigationtab.isSet(5)}">
+                        <a href ng-click="navigationtab.setTab(5)">Prices</a>
+                    </li>
+                    <li ng-class="{ active:navigationtab.isSet(6)}">
+                        <a id="DoveSiamoLink" href ng-click="navigationtab.setTab(6)">Location</a>
+                    </li>
+                    <li ng-class="{ active:navigationtab.isSet(7)}">
+                        <a href ng-click="navigationtab.setTab(7)">Contact</a>
+                    </li>
+                    <!--<li ng-class="{ active:navigationtab.isSet(8)}">
+                        <a href ng-click="navigationtab.setTab(8)">Contracts</a>
+                    </li>-->
+                    <!--
+                    <li ng-class="{ active:navigationtab.isSet(9)}">
+                        <a href ng-click="navigationtab.setTab(9)">Booking</a>
+                    </li>
+                    <li ng-class="{ active:navigationtab.isSet(10)}">
+                        <a href ng-click="navigationtab.setTab(10)">Tourism</a>
+                    </li>
+                    -->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
