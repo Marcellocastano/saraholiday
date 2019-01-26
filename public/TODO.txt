@@ -1,0 +1,6 @@
+- Aggiungere foto slideshow della home - ?
+- Cercare di ridurre la dimensione (mb) delle immagini per un caricamento più rapido
+- Sara Home: foto esterna: ridurne l'altezza
+- Contratti: Aggiornare documenti 
+- Location: Aggiornare indicazioni stradali
+- Gestire la lingua in tutto il sito - Roberta

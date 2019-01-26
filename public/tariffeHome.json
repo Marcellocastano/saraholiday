@@ -1,0 +1,38 @@
+[
+{
+        "Periodo":"Dal 1/10 al 30/6",
+        "ospiti4": "50",
+        "ospiti5":"65",
+        "ospiti6":"80",
+        "ospiti7":"95",
+        "ospiti8":"110",
+        "ospiti9":"125"
+    },
+    {
+        "Periodo":"Dal 1/7 al 28/7",
+        "ospiti4": "70",
+        "ospiti5":"85",
+        "ospiti6":"100",
+        "ospiti7":"115",
+        "ospiti8":"135",
+        "ospiti9":"145"
+    },
+    {
+        "Periodo":"Dal 29/7 al 03/9",
+        "ospiti4": "90",
+        "ospiti5":"105",
+        "ospiti6":"120",
+        "ospiti7":"135",
+        "ospiti8":"150",
+        "ospiti9":"165"
+    },
+    {
+        "Periodo":"Dal 4/9 al 1/10",
+        "ospiti4": "70",
+        "ospiti5":"85",
+        "ospiti6":"100",
+        "ospiti7":"115",
+        "ospiti8":"130",
+        "ospiti9":"145"
+    }
+]

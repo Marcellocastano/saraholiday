@@ -1,0 +1,88 @@
+    <!-- Page Content elem-ready-maps=""-->
+    <div class="container" ng-show="navigationtab.isSet(6)" >
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Location
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href ng-click="navigationtab.setTab(1)">Home</a>
+                    </li>
+                    <li class="active">Location</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <!-- Sidebar Column -->
+            <div class="col-md-3">
+                <div class="list-group">
+                    <a href ng-click="locationtab.setTab(1)" class="list-group-item">Sara Relax Home/Chalet</a>
+                    <a href ng-click="locationtab.setTab(2)" class="list-group-item">Sara Home</a>
+                </div>
+            </div>
+            <!-- Content Column -->
+            <div class="col-md-9">
+
+            <div class="col-md-9" ng-show="locationtab.isSet(1)">
+                <h2>
+                    <a href ng-click="navigationtab.setTab(2)"> Sara Relax Home/</a> 
+                    <a href ng-click="navigationtab.setTab(3)">Chalet</a>
+                </h2>
+            </div>
+
+            <div class="col-md-9" ng-show="locationtab.isSet(2)">
+                <h2><a href ng-click="navigationtab.setTab(4)"> Sara Home</a></h2>
+             </div>
+
+
+            <div class="col-md-8" id="googleMap">
+                    
+                    <!--<iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>-->
+            </div>
+                <br>
+            
+            
+            <!-- Contact Details Column -->
+            <!--Sara Relax Home/Chalet-->
+            <div class="col-md-12" ng-show="locationtab.isSet(1)">
+                <h3>Sita a Mazara del Vallo, a meno di 5 minuti a piedi dalla splendida spiggia di Tonnarella, Sara Relax vi aspetta per offrirvi una splendida vacanza! </h3>
+                    
+                <h3 class="fakehref">Dall'Aeroporto di Palermo</h3> 
+                            <p>Imboccare l'autostrada Palermo-Mazara in direzione Mazara e proseguire, senza uscire, in direzione Marsala</p>
+                <button class="btn btn-primary" onclick="javascript:pathFrom('Palermo','Relax')" >Percorso</button> 
+                
+                <h3 class="fakehref">Dall'Aeroporto di Trapani</h3> 
+                            <p>Imboccare lo scorrimento veloce Trapani-Marsala in direzione di Marsala, svoltare a destra (di fronte l'ospedale) sulla strada statale 188. Procedi per circa 2,3 Km e svolta a sinistra in Contrada S. silvestro. Prendi la SP53 e successivamente la SS115 in direzione Mazara del Vallo.</p>
+
+                <button class="btn btn-primary" onclick="javascript:pathFrom('Trapani','Relax')" >Percorso</button>
+              <!-- <br>    
+                <br> 
+                <button class="btn btn-primary" onclick="javascript:initialize('Relax')" >Back</button>
+                --> 
+            </div>
+
+           <!--Sara Home-->
+            <div class="col-md-12" ng-show="locationtab.isSet(2)">
+                    <h3>Sita a Mazara del Vallo, a pochi passi sia dal mare che dal centro della città<br>Sara home vi aspetta per offrirvi una splendida vacanza! </h3>
+                    <h3 class="fakehref">Dall'Aeroporto di Palermo</h3> 
+                            <p>Imboccare l'autostrada Palermo-Mazara in direzione Mazara e proseguire, senza uscire, in direzione Marsala</p>
+                <button class="btn btn-primary" onclick="javascript:pathFrom('Palermo','Home')" >Percorso</button>     
+                <h3 class="fakehref">Dall'Aeroporto di Trapani</h3> 
+                            <p>Imboccare lo scorrimento veloce Trapani-Marsala in direzione di Marsala, svoltare a destra (di fronte l'ospedale) sulla strada statale 188. Procedi per circa 2,3 Km e svolta a sinistra in Contrada S. silvestro. Prendi la SP53 e successivamente la SS115 in direzione Mazara del Vallo.</p>
+                <button class="btn btn-primary" onclick="javascript:pathFrom('Trapani','Home')" >Percorso</button>
+                <!--<br>
+                <br> 
+                <button class="btn btn-primary" onclick="javascript:initialize('Home')" >Back</button> 
+                 -->
+             </div>
+
+           </div> 
+        </div>
+        <hr>
+
+    </div>
+   
