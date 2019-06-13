@@ -1,0 +1,214 @@
+{
+    "dataSrc": [
+        {
+            "slug": "Gennaio SRC",
+            "accomodation":"src",
+            "periodo":"",
+            "mese":"Gennaio",
+            "n_ospiti": "1-2",
+            "tariffa": "50€"
+        },
+        {
+            "slug": "Gennaio SRC",
+            "accomodation":"src",
+            "periodo":"extra",
+            "mese":"Gennaio",
+            "n_ospiti": "3-5",
+            "tariffa": "10€"
+        },
+        {
+            "slug": "Febbraio SRC",
+            "accomodation":"src",
+            "periodo":"",
+            "mese":"Febbraio",
+            "n_ospiti": "1-2",
+            "tariffa": "50€"
+        },
+        {
+            "slug": "Febbraio SRC",
+            "accomodation":"src",
+            "periodo":"extra",
+            "mese":"Febbraio",
+            "n_ospiti": "3-5",
+            "tariffa": "10€"
+        },
+        {
+            "slug": "Marzo SRC",
+            "accomodation":"src",
+            "periodo":"",
+            "mese":"Marzo",
+            "n_ospiti": "1-2",
+            "tariffa": "20€"
+        },
+        {
+            "slug": "Marzo SRC",
+            "accomodation":"src",
+            "periodo":"extra",
+            "mese":"Marzo",
+            "n_ospiti": "3-5",
+            "tariffa": "10€"
+        },
+        {
+            "slug": "Aprile SRC",
+            "accomodation":"src",
+            "periodo":"",
+            "mese":"Aprile",
+            "n_ospiti": "1-2",
+            "tariffa": "21€"
+        },
+        {
+            "slug": "Aprile SRC",
+            "accomodation":"src",
+            "periodo":"extra",
+            "mese":"Aprile",
+            "n_ospiti": "3-5",
+            "tariffa": "10€"
+        },
+        {
+            "slug": "Maggio SRC",
+            "accomodation":"src",
+            "periodo":"",
+            "mese":"Maggio",
+            "n_ospiti": "1-2",
+            "tariffa": "23€"
+        },
+        {
+            "slug": "Maggio SRC",
+            "accomodation":"src",
+            "periodo":"extra",
+            "mese":"Maggio",
+            "n_ospiti": "3-5",
+            "tariffa": "10€"
+        },
+        {
+            "slug": "Giugno SRC",
+            "accomodation":"src",
+            "periodo":"",
+            "mese":"Giugno",
+            "n_ospiti": "1-2",
+            "tariffa": "25€"
+        },
+        {
+            "slug": "Giugno SRC",
+            "accomodation":"src",
+            "periodo":"extra",
+            "mese":"Giugno",
+            "n_ospiti": "3-5",
+            "tariffa": "10€"
+        },
+        {
+            "slug": "Luglio SRC",
+            "accomodation":"src",
+            "periodo":"",
+            "mese":"Luglio",
+            "n_ospiti": "1-2",
+            "tariffa": "30€"
+        },
+        {
+            "slug": "Luglio SRC",
+            "accomodation":"src",
+            "periodo":"extra",
+            "mese":"Luglio",
+            "n_ospiti": "3-5",
+            "tariffa": "15€"
+        },
+        {
+            "slug": "Agosto SRC",
+            "accomodation":"src",
+            "periodo":"",
+            "mese":"Agosto",
+            "n_ospiti": "1-2",
+            "tariffa": "40€"
+        },
+        {
+            "slug": "Agosto SRC",
+            "accomodation":"src",
+            "periodo":"extra",
+            "mese":"Agosto",
+            "n_ospiti": "3-5",
+            "tariffa": "15€"
+        },
+        {
+            "slug": "Ferragosto SRC",
+            "accomodation":"src",
+            "periodo":"",
+            "mese":"Ferragosto",
+            "n_ospiti": "1-2",
+            "tariffa": "50€"
+        },
+        {
+            "slug": "Ferragosto SRC",
+            "accomodation":"src",
+            "periodo":"extra",
+            "mese":"Ferragosto",
+            "n_ospiti": "3-5",
+            "tariffa": "15€"
+        },
+        {
+            "slug": "Settembre SRC",
+            "accomodation":"src",
+            "periodo":"",
+            "mese":"Settembre",
+            "n_ospiti": "1-2",
+            "tariffa": "30€"
+        },
+        {
+            "slug": "Settembre SRC",
+            "accomodation":"src",
+            "periodo":"extra",
+            "mese":"Settembre",
+            "n_ospiti": "3-5",
+            "tariffa": "10€"
+        },
+        {
+            "slug": "Ottobre SRC",
+            "accomodation":"src",
+            "periodo":"",
+            "mese":"Ottobre",
+            "n_ospiti": "1-2",
+            "tariffa": "20€"
+        },
+        {
+            "slug": "Ottobre SRC",
+            "accomodation":"src",
+            "periodo":"extra",
+            "mese":"Ottobre",
+            "n_ospiti": "3-5",
+            "tariffa": "10€"
+        },
+        {
+            "slug": "Novembre SRC",
+            "accomodation":"src",
+            "periodo":"",
+            "mese":"Novembre",
+            "n_ospiti": "1-2",
+            "tariffa": "50€"
+        },
+        {
+            "slug": "Novembre SRC",
+            "accomodation":"src",
+            "periodo":"extra",
+            "mese":"Novembre",
+            "n_ospiti": "3-5",
+            "tariffa": "10€"
+        },
+        {
+            "slug": "Dicembre SRC",
+            "accomodation":"src",
+            "periodo":"",
+            "mese":"Dicembre",
+            "n_ospiti": "1-2",
+            "tariffa": "50€"
+        },
+        {
+            "slug": "Dicembre SRC",
+            "accomodation":"src",
+            "periodo":"extra",
+            "mese":"Dicembre",
+            "n_ospiti": "3-5",
+            "tariffa": "10€"
+        }
+    ]
+}
+
+        
